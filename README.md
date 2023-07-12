@@ -13,7 +13,9 @@ You don't need to detect all kinds of redirects though:
 And then there are the devil's ways. These include meta refresh, the Refresh: header, and JavaScript. Although these methods work in most browsers, they are definitely not guaranteed to work, and occasionally result in strange behavior (aka. breaking the back button).
 
 Most web crawlers, including the Googlebot, ignore these redirection methods, and so should you. If you absolutely have to detect all redirects, then you would have to parse the HTML for META tags, look for Refresh: headers in the response, and evaluate Javascript. Good luck with the last one.
-``` (link)[https://stackoverflow.com/questions/704956/getting-the-redirected-url-from-the-original-url]
+```
+
+(link)[https://stackoverflow.com/questions/704956/getting-the-redirected-url-from-the-original-url]
 
 ## Clean URL of all query parameters
 
