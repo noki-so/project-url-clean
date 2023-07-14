@@ -26,3 +26,5 @@ This should be pretty simple
 for example "https://google.com" becomes "google.com".
 
 This is more complicated than it looks, but there are lots of npm packages that do this for you. Make sure to use them. Ideally, do a little comparison, and see what package works best (looking at number of downloads for a package is a good first indicator).
+
+# example stuff
